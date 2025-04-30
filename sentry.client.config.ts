@@ -25,9 +25,9 @@ Sentry.init({
       maskAllText: true,
       blockAllMedia: true,
     }),
-    Sentry.feedbackIntegration({
-      // Additional Replay configuration goes in here, for example:
-      colorScheme: "dark"
-    }),
+    // Sentry.feedbackIntegration({
+    //   // Additional Replay configuration goes in here, for example:
+    //   colorScheme: "dark"
+    // }),
   ],
 });

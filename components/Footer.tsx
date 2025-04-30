@@ -7,12 +7,12 @@ const Footer = () => {
   return (
     <footer className="w-full pb-2 md:m" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Your digital journey starts here — let’s <span className="text-purple"> innovate </span> 
-          together
+        <h1 className="heading lg:max-w-[48vw]">
+          Let’s turn vision into <br/> reality — through <span className="text-purple"> collaboration </span> 
+          and <span className="text-purple"> innovation </span> 
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how can we solve the real world problems.
+          Have an idea or challenge in mind? Let’s talk it through!
         </p>
         <a href="mailto:kumawat.chirag.20@gmail.com">
           <MagicButton
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Chirag Kumawat
+          Copyright © 2025 Chirag Kumawat
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

@@ -295,6 +295,12 @@ export const navItems = [
       url: "https://www.linkedin.com/in/chirag2499/",
       name: "linkedin",
     },
+    {
+      id: 4,
+      img: "/youtube.svg",
+      url: "https://youtube.com/@engineerafterhours?si=tudv_pgOCC-mL9C8",
+      name: "youtube",
+    },
   ];
 
 export const imageSets = [
