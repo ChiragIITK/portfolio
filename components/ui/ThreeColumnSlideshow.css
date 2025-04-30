@@ -1,0 +1,25 @@
+.three-column-slideshow {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Optionally, add some hover effects */
+  .column:hover .slide-image {
+    opacity: 0.8;
+  }
+  

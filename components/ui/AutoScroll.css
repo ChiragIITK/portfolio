@@ -1,0 +1,29 @@
+.auto-scroll-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .auto-scroll-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    animation: auto-scroll 15s linear infinite;
+  }
+  
+  .auto-scroll-image {
+    flex-shrink: 0;
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between images */
+  }
+  
+  @keyframes auto-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
